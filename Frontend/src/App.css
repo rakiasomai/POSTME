@@ -1,11 +1,12 @@
-.page-title {
+.post-text {
   display: block !important;
   text-align: center;
   font-size: 2rem;
   margin-top: 10px;
 }
 
-.form-container {
+.style-cont {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 400px;
   margin: auto;
 }

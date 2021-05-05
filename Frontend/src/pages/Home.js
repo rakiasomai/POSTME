@@ -14,7 +14,7 @@ const Home = () => {
   );
   return (
     <Grid columns={3}>
-      <Grid.Row className="page-title">
+      <Grid.Row className="post-text">
         <h1>Recent Posts</h1>
       </Grid.Row>
       <Grid.Row>
