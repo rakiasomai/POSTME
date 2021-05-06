@@ -1,5 +1,5 @@
 .Header {
-  color: red;
+  color: #FF7F50;
   display: block !important;
   text-align: center;
   font-size: 2rem;
@@ -14,5 +14,12 @@
 
 .ui.teal.button:focus,
 .ui.teal.buttons .button:focus {
-  background-color: #00b5ad;
+  background-color: teal;
 }
+
+.app {
+  background-color: rgba(247, 242, 242, 0.575);
+}
+
+
+

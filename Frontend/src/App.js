@@ -17,6 +17,7 @@ import SinglePost from "./pages/SinglePost";
 const App = () => {
   return (
     <AuthProvider>
+      <div className='app'>
       <Router>
         <Container>
           <MenuBar />
@@ -26,6 +27,7 @@ const App = () => {
           <Route exact path="/posts/:postId" component={SinglePost} />
         </Container>
       </Router>
+      </div>
     </AuthProvider>
   );
 };

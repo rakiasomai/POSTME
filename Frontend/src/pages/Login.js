@@ -52,7 +52,7 @@ const Login = (props) => {
           error={errors.password ? true : false}
           onChange={onChange}
         />
-        <Button type="submit" primary>
+        <Button className='style-btn' type="submit" primary>
           Login
         </Button>
       </Form>

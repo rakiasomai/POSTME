@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <Grid columns={3}>
       <Grid.Row className="Header">
-        <h1>Latest news</h1>
+        <h1><em> Latest news</em></h1>
       </Grid.Row>
       <Grid.Row>
         {user && (

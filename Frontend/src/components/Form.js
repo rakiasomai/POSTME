@@ -31,7 +31,7 @@ const PostForm = () => {
   return (
     <>
       <Form onSubmit={onSubmit}>
-        <h2>Post me</h2>
+        <h2><em>Post me</em></h2>
         <Form.Field>
           <Form.Input
             placeholder="Hi World!"
